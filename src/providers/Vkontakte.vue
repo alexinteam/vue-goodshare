@@ -19,7 +19,6 @@
     </span>
     <span
       class="counter-vkontakte"
-      v-model="counter_vkontakte"
       v-if="this.$props.has_counter"
     >
       {{ counter_vkontakte }}
